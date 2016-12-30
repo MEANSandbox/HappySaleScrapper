@@ -2,7 +2,7 @@ var express = require('express')
 var app = express();
 var cheerio = require('cheerio')
 var async = require('async')
-var request = request('request')
+var request = require('request');
 var constant = require('./constant')
 app.set('port',3000);
 
