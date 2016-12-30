@@ -1,0 +1,24 @@
+{
+  "name": "happusalescrapper",
+  "version": "1.0.0",
+  "description": "a basic scrapper for happysale.in site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEANSandbox/HappySaleScrapper.git"
+  },
+  "author": "LabN36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEANSandbox/HappySaleScrapper/issues"
+  },
+  "homepage": "https://github.com/MEANSandbox/HappySaleScrapper#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0"
+  }
+}
