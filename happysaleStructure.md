@@ -18,3 +18,6 @@
 
 
 ###common information on store ans category endpoint
+
+##Home>categories>furniture
+##Home>stores>Electronic>Flipkart

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body ng-app="app" class="container">
+    <div class="row">
+        <input type="text" ng-model="test1">
+        <button class="btn btn-success">Call API</button>
+    </div>
+    <div ng-controller="HomeController" class="row">
+        {{test1}}
+    </div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="public/angular/angularApp.js"></script>
+</body>
+</html>

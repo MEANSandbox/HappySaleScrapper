@@ -1,0 +1,21 @@
+{
+  "name": "happusalescrapper",
+  "description": "a basic scrapper for happysale.in site",
+  "main": "server.js",
+  "authors": [
+    "LabN36"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MEANSandbox/HappySaleScrapper",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7"
+  }
+}
